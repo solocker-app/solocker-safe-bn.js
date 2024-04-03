@@ -1,0 +1,32 @@
+{
+  "name": "@solocker/safe-bn",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solocker-app/solocker-safe-bn.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "BigNumber support for decimals.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "bun build"
+  },
+  "keywords": [],
+  "author": "Oguntunde Caleb Fiyinfoluwa <payouk.msytre@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.5",
+    "bn.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
