@@ -1,6 +1,6 @@
 {
   "name": "@solocker/safe-bn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/solocker-app/solocker-safe-bn.js"
@@ -14,7 +14,16 @@
     "test": "jest",
     "build": "bun build"
   },
-  "keywords": [],
+  "keywords": [
+    "bn.js",
+    "solocker",
+    "solana",
+    "bignumber",
+    "decimals",
+    "safe-bn",
+    "large",
+    "float"
+  ],
   "author": "Oguntunde Caleb Fiyinfoluwa <payouk.msytre@gmail.com>",
   "license": "ISC",
   "dependencies": {
